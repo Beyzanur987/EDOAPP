@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6E1C2"
+    tools:context=".AuthPages.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewLogo1"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/teacher">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/txt_ss"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="45dp"
+            android:layout_marginBottom="10dp"
+            android:text="meb.gov.tr uzantılı adresinizle kayıt olmalısınız."
+            android:textColor="#5C4227"></TextView>
+        />
+
+        <EditText
+            android:id="@+id/registerUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:hint="Kullanıcı Adı"
+            android:textColor="#5C4227"
+            android:textColorHint="#5C4227"
+            app:drawableLeftCompat="@drawable/ic_baseline_person_add_24" />
+
+        <EditText
+            android:id="@+id/registerUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:hint="E-mail"
+            android:textColor="#5C4227"
+            android:textColorHint="#5C4227"
+            app:drawableLeftCompat="@drawable/ic_baseline_mail_outline_24" />
+
+        <EditText
+            android:id="@+id/registerSchoolName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:hint="Okul ve Adres"
+            android:textColor="#5C4227"
+            android:textColorHint="#5C4227"
+            app:drawableLeftCompat="@drawable/ic_baseline_school_24" />
+
+        <EditText
+            android:id="@+id/registerCityName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:hint="Şehir"
+            android:textColor="#5C4227"
+            android:textColorHint="#5C4227"
+            app:drawableLeftCompat="@drawable/ic_baseline_home_24" />
+
+        <EditText
+            android:id="@+id/registerPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="Şifre"
+            android:inputType="textPassword"
+            android:textColor="#5C4227"
+            android:textColorHint="#5C4227"
+            app:drawableLeftCompat="@drawable/ic_baseline_vpn_key_24" />
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/sekil"
+            android:text="Kayıt Ol"
+            android:textColor="#5c4227"
+            app:backgroundTint="#EB8B4E" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

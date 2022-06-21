@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6E1C2"
+    tools:context=".AuthPages.DonaterRegister">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#F6E1C2"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewLogo1"
+            android:layout_width="223dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/donaterman" />
+        <EditText
+            android:id="@+id/registerUserName"
+
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#5C4227"
+            android:textColorHint="#5C4227"
+            android:hint="Kullanıcı Adı"
+            app:drawableLeftCompat="@drawable/ic_baseline_person_add_24" />
+
+        <EditText
+            android:id="@+id/registerUserEmail"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#5C4227"
+            android:textColorHint="#5C4227"
+            android:layout_marginBottom="20dp"
+            android:hint="E-Mail"
+            app:drawableLeftCompat="@drawable/ic_baseline_mail_outline_24" />
+
+        <EditText
+            android:id="@+id/registerPassword"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="20dp"
+            android:hint="Şifre"
+            android:textColor="#5C4227"
+            android:textColorHint="#5C4227"
+            android:inputType="textPassword"
+            app:drawableLeftCompat="@drawable/ic_baseline_vpn_key_24" />
+
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/sekil"
+            android:text="Kayıt Ol"
+            android:textColor="#5C4227"
+            app:backgroundTint="#EB8B4E" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

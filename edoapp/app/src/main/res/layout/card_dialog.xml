@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#F6E1C2"
+    android:layout_height="match_parent">
+
+    <!--on below line we are creating a pay view-->
+
+    <com.vinaygaba.creditcardview.CreditCardView
+        android:id="@+id/card1"
+        android:layout_width="fill_parent"
+        android:layout_height="225dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/cardbackground_world"
+        app:cardNameTextColor="#cccccc"
+        app:cardNumber="****************"
+        app:cardNumberFormat="masked_all_but_last_four"
+        app:cardNumberTextColor="#cccccc"
+        app:expiryDate="02/22"
+        app:expiryDateTextColor="#cccccc"
+        app:hintTextColor="#cccccc"
+        app:isEditable="true"
+        app:putChip="true"
+        app:type="auto"
+        app:validTillTextColor="#cccccc" />
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/card1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_totalPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toplam Fiyat"></TextView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>

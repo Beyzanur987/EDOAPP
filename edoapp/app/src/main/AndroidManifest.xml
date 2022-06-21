@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.edoapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Edoapp"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".TeacherDetail"
+            android:exported="false" />
+        <activity
+            android:name=".SellerDetail"
+            android:exported="false" />
+        <activity
+            android:name=".Pages.Seller.ProcessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Pages.Teacher.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Pages.Donater.DonaterBucketActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Pages.Donater.DonaterHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Pages.Teacher.TeacherBucketActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Pages.Teacher.TeacherProductsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Pages.Seller.SellerProductsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Pages.Seller.SellerHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AuthPages.DonaterRegister"
+            android:exported="false" />
+        <activity
+            android:name=".AuthPages.SellerRegister"
+            android:exported="false" />
+        <activity
+            android:name=".AuthPages.DonaterLogin"
+            android:exported="false" />
+        <activity
+            android:name=".AuthPages.SellerLogin"
+            android:exported="false" />
+        <activity
+            android:name=".Pages.ChoosingPage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AuthPages.ResetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AuthPages.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Pages.Teacher.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AuthPages.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

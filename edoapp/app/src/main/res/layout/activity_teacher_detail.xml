@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/arkaplan"
+    android:weightSum="3"
+    tools:context=".TeacherDetail">>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+
+
+        <ImageView
+            android:id="@+id/iv_seller1"
+            android:layout_width="240dp"
+            android:layout_height="230dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/seller1"
+            tools:layout_editor_absoluteX="62dp"
+            tools:layout_editor_absoluteY="292dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/iv_shoping"
+            android:layout_width="240dp"
+            android:layout_height="230dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/shoping"
+            android:layout_marginTop="20dp"
+            tools:layout_editor_absoluteX="62dp"
+            tools:layout_editor_absoluteY="292dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/iv_profile"
+            android:layout_width="240dp"
+            android:layout_height="230dp"
+            android:layout_marginTop="20dp"
+
+            android:layout_weight="1"
+            app:srcCompat="@drawable/profile"
+            tools:layout_editor_absoluteX="62dp"
+            tools:layout_editor_absoluteY="292dp" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

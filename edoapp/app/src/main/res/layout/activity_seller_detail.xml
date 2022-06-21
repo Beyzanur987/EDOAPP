@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/arkaplan"
+    android:weightSum="3"
+    tools:context=".SellerDetail">>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+
+
+        <ImageView
+            android:id="@+id/iv_addProdact"
+            android:layout_width="240dp"
+            android:layout_height="230dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/addprodact"
+            tools:layout_editor_absoluteX="62dp"
+            tools:layout_editor_absoluteY="292dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/iv_prodact"
+            android:layout_width="240dp"
+            android:layout_height="230dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/prodact"
+            android:layout_marginTop="20dp"
+            tools:layout_editor_absoluteX="62dp"
+            tools:layout_editor_absoluteY="292dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/iv_orders"
+            android:layout_width="240dp"
+            android:layout_height="230dp"
+            android:layout_marginTop="20dp"
+
+            android:layout_weight="1"
+            app:srcCompat="@drawable/orders"
+            tools:layout_editor_absoluteX="62dp"
+            tools:layout_editor_absoluteY="292dp" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

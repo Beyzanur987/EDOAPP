@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "831865057344",
+    "project_id": "edoapp-3c64a",
+    "storage_bucket": "edoapp-3c64a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831865057344:android:a23f1cdf956361a76fefa5",
+        "android_client_info": {
+          "package_name": "com.example.edoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831865057344-ava8pm03modktj4vu62iu1okhbt7dled.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6uzFbWynb4X8B8K79qngPav20--QtfUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831865057344-ava8pm03modktj4vu62iu1okhbt7dled.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
